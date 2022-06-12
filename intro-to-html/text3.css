@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    height:4000px;
+}
+
+.fifteen-c-box{
+    width: 420px;
+    height: 180px;
+    background-color: gray;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.fifteen-c-close-btn{
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    background-color: #000;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.fifteen-c-timestamp{
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+    background-color: #000;
+    color:#fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.fifteen-e{
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.fifteen-e-image{
+    width: 300px;
+    margin-left: 20px;
+    object-fit: cover;
+    height: 300px;
+    object-position: center;
+}
+
+.fifteen-e-promotion{
+    color:#fff;
+    background-color: #000;
+    position:absolute;
+    top:8px;
+    right:0;
+    padding: 8px 10px;
+}
+
+.fifteen-e-overlay{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifteen-e-add-btn{
+    background-color: #fff;
+    color:#000;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    font-weight: 500;
+    cursor: pointer;
+}

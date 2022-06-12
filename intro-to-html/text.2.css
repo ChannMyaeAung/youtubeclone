@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 4000px;
+}
+
+.fourteen-e{
+    display: flex;
+    align-items: center;
+}
+
+.fourteen-e-pro-pic-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourteen-e-pro-pic{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}
+
+
+.fourteen-e-username{
+    flex:1;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.fourteen-e-add-btn{
+    color:#fff;
+    background-color: rgb(47, 47, 234);
+    border: none;
+    padding:8px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.fourteen-e-message-btn{
+    background-color: rgb(190, 190, 190);
+    border: none;
+    padding:8px 10px;
+    border-radius: 5px;
+}
+
+.fourteen-f{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.fourteen-f-sidebar-one{
+    position: fixed;
+    top:90px;
+    bottom:100px;
+    background-color: rgb(43, 40, 40);
+    width: 100px;
+}
+
+.fourteen-f-img-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.sidebar-one-pic{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.fourteen-f-sidebar-two{
+    position: fixed;
+    top:90px;
+    bottom:100px;
+    left:100px;
+    background-color: rgb(62, 57, 57);
+    width: 200px;
+}
+
+.sidebar-two-header-column{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sidebar-two-header{
+    margin-top: px;
+    font-size: 14px;
+    flex:1;
+    margin-left: 15px;
+    color:rgb(195, 195, 195);
+}
+
+.sidebar-two-plus-sign{
+    font-size: 25px;
+    margin-right: 18px;
+    margin-top: -4px;
+    color:rgb(140, 140, 140);
+}
+
+.sidebar-two-info-column{
+    margin-left: 15px;
+    color:rgb(140, 140, 140);
+}
+
+.fifteen-a{
+    margin-top: 550px;
+}
